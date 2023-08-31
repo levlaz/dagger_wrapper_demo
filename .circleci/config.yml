@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: python3
+      - image: python:latest
     steps:
       - checkout
       - run:
